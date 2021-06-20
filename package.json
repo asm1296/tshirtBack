@@ -10,7 +10,7 @@
   "scripts": {
     "start": "node dist/app.js",
     "dev": "nodemon app.ts",
-    "postinstall": "tsc",
+    "postinstall": "tsc -p .",
     "build": "tsc -p ."
   },
   "keywords": [],
