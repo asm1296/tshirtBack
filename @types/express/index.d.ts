@@ -17,13 +17,3 @@ declare global{
         }
     }
 }
-
-declare module 'Formidable'{
-    interface Fields{
-        name:string, 
-        description:string,
-        price:number,
-        category:any,
-        availableUnits:number
-    }
-}

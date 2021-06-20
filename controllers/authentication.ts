@@ -48,6 +48,7 @@ export const signin=async(req:Request,res:Response)=>{
         }
         User.findOne({email},(errors:string, user:Users)=>{
             if(errors || !user){
+                console.log(errors);
                 return res.status(400).json({
                     error:"email doesn't exist"
                 })
