@@ -5,12 +5,13 @@ import { Products } from '../../models/product';
 import Formidable from "formidable";
 import { Orderedproducts, Order } from '../../models/order'
 
-declare module 'Formidable'{
-    interface Fields{
-        name:string, 
-        description:string,
-        price:number,
-        category:any,
-        availableUnits:number
+
+    declare module 'Formidable'{
+        export interface Fields{
+            name:string, 
+            description:string,
+            price:number,
+            category:any,
+            availableUnits:number
+        }
     }
-}
