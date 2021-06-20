@@ -30,9 +30,7 @@
     "jsonwebtoken": "^8.5.1",
     "lodash": "^4.17.21",
     "mongoose": "^5.11.18",
-    "uuid": "^8.3.2"
-  },
-  "devDependencies": {
+    "uuid": "^8.3.2",
     "@types/body-parser": "^1.19.0",
     "@types/braintree": "^2.22.13",
     "@types/cookie-parser": "^1.4.2",
@@ -45,8 +43,10 @@
     "@types/mongoose": "^5.10.3",
     "@types/node": "^14.14.31",
     "@types/uuid": "^8.3.0",
-    "nodemon": "^2.0.7",
     "ts-node": "^9.1.1",
     "typescript": "^4.1.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
   }
 }
