@@ -7,11 +7,11 @@ import { Orderedproducts, Order } from '../../models/order'
 
 
     declare module 'Formidable'{
-        export interface Fields{
-            name:string, 
-            description:string,
-            price:number,
-            category:any,
+        export class Fields{
+            name:string; 
+            description:string;
+            price:number;
+            category:any;
             availableUnits:number
         }
     }
